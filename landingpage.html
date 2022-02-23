@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/5a5234c63a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="landingpage.css">
+
+</head>
+<style>
+    #nav1 {
+        display: flex;
+        margin-top: 30px;
+        padding-left: 30px;
+
+    }
+
+    #sele {
+        width: 20%;
+    }
+
+    #search {
+        width: 40%;
+    }
+
+    .nav2 {
+        width: 100%;
+        height: 20%;
+        border: 1px salmon;
+        background-color: #dd0285;
+        margin-top: 30px;
+
+
+    }
+
+    #ladkiface {
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    #bigface {
+        margin: auto;
+        margin-left: 40px;
+        margin-top: 30px;
+
+    }
+
+    .checked {
+        color: orange;
+
+    }
+
+    .box1 {
+        text-align: center;
+
+    }
+
+    .mainbox {
+        display: flex;
+        padding: 20px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .poster {
+        display: flex;
+        margin: auto;
+        padding: 40px;
+        margin-top: 50px;
+
+    }
+
+    .pinkbar {
+        border-radius: 1px solid red;
+        border: 1px;
+        display: flex;
+        background-color: pink;
+        padding: 30px;
+    }
+
+    .pinkbar>img {
+        margin: auto
+    }
+
+    .lowerproduct>div {
+        margin: auto;
+    }
+
+    .lowerproduct {
+        display: flex;
+    }
+
+    .poster>img {
+        margin: 50px;
+    }
+    
+</style>
+
+<body>
+    <div>
+        <img src="https://www.beautybebo.com/pub/media/ads/ad-desktop.jpg" alt="">
+
+
+        <div id="nav1">
+            <img src="https://www.beautybebo.com/pub/media/logo/default/beautybebo_1.png" alt="">
+
+            <select name="All Categories" id="sele">
+                <option value="">All Categories</option>
+                <option value="">..Makeup</option>
+                <option value="">....Face</option>
+                <option value="">......Foundation</option>
+                <option value="">......Blush</option>
+                <option value="">......FacePrimer</option>
+                <option value="">......Makeup Remover</option>
+                <option value="">......Loose Powder</option>
+                <option value="">......CC Cream</option>
+                <option value="">....Eye</option>
+                <option value="">......Eye Shadow</option>
+                <option value="">......Eyeliner</option>
+                <option value="">......Kajal</option>
+                <option value="">......Contact Lenses</option>
+                <option value="">....Lips</option>
+                <option value="">......Lipstick</option>
+                <option value="">......Liquid Lipstick</option>
+                <option value="">......Lip Liner</option>
+                <option value="">......Lip Balm</option>
+                <option value="">....Nails</option>
+                <option value="">......Nail Polish</option>
+                <option value="">......Nail Care</option>
+                <option value="">......Nail Polish Remover</option>
+                <option value="">..Skin</option>
+                <option value="">....Body Care</option>
+                <option value="">......Hand Creams</option>
+                <option value="">......Neck Cream</option>
+                <option value="">......Foot Cream</option>
+                <option value="">......Night Cream</option>
+                <option value="">......All Cream</option>
+                <option value="">....Face Care</option>
+                <option value="">......Facial Cleaner</option>
+                <option value="">......Face oil</option>
+                <option value="">....Eye Care</option>
+                <option value="">......Dark cirle</option>
+                <option value="">......Eye Mask</option>
+                <option value="">......Eye Serum</option>
+                <option value="">..Hair</option>
+                <option value="">....Hair Care</option>
+                <option value="">......Hair colour</option>
+                <option value="">Hair Serum</option>
+                <option value="">Hair shampoo</option>
+                <option value="">.. Mom And Baby Care</option>
+                <option value="">..Fragrance</option>
+                <option value="">..Ayurveda</option>
+            </select>
+
+
+            <input type="text" name="" id="search" placeholder="Enter Your Search">
+            <button id="searchbutton"><i><i class="fas fa-search"></i></i></button>
+            <i class="fa fa-heart" style="font-size:40px;"></i>
+            <i class='fas fa-user-alt' style='font-size:36px'></i>
+            <select name="" id="myaccount">My Account
+                <option value="">My Account</option>
+                <option value="">Login</option>
+                <option value="">Register</option>
+            </select>
+
+        </div>
+
+        <div class="nav2">
+            <select name="Makeuop" id="" style=" font-size: 15px;">Makeup
+                <option value="">MAKEUP</option>
+                <option value="">BB Cream</option>
+                <option value="">Blush</option>
+                <option value="">CC Cream</option>
+                <option value="">Face Primer</option>
+                <option value="">Contact Lenses</option>
+                <option value="">Eye Kit</option>
+                <option value="">Eyeliner</option>
+                <option value="">Lipstick</option>
+                <option value="">Lip Liner</option>
+                <option value="">Lip Gloss</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+                <option value="">Body TONER</option>
+                <option value="">Day cream</option>
+                <option value="">Foot cream</option>
+            </select>
+            <select name="" id="" style="font-size: 15px;">Skin
+                <option value="">SKIN</option>
+                <option value="">Dark Circles</option>
+                <option value="">Eye counter care</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+                <option value="">Body TONER</option>
+                <option value="">Day cream</option>
+                <option value="">Foot cream</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+                <option value="">Body TONER</option>
+                <option value="">Day cream</option>
+                <option value="">Foot cream</option>
+            </select>
+            <select name="" id="" style="font-size: 15px;">Skin
+                <option value="">HAIR</option>
+                <option value="">Dark Circles</option>
+                <option value="">Eye counter care</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+                <option value="">Body TONER</option>
+                <option value="">Day cream</option>
+                <option value="">Foot cream</option>
+            </select>
+            <select name="" id="" style="font-size: 15px;">Skin
+                <option value="">PERSONAL CARE</option>
+                <option value="">Dark Circles</option>
+                <option value="">Eye counter care</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+                <option value="">Body TONER</option>
+                <option value="">Day cream</option>
+                <option value="">Foot cream</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+                <option value="">Body TONER</option>
+                <option value="">Day cream</option>
+                <option value="">Foot cream</option>
+            </select>
+            <select name="" id="" style="font-size: 15px;">Skin
+                <option value="">MOM & BABY CARE</option>
+                <option value="">Dark Circles</option>
+                <option value="">Eye counter care</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+                <option value="">Body TONER</option>
+                <option value="">Day cream</option>
+                <option value="">Foot cream</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+
+            </select>
+            <select name="" id="" style="font-size: 15px;">Skin
+                <option value="">FRAGRANCE</option>
+                <option value="">Dark Circles</option>
+                <option value="">Eye counter care</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+                <option value="">Body TONER</option>
+                <option value="">Day cream</option>
+                <option value="">Foot cream</option>
+            </select>
+            <select name="" id="" style="font-size: 15px;">Skin
+                <option value="">AYUREDA</option>
+                <option value="">Dark Circles</option>
+                <option value="">Eye counter care</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+                <option value="">Body TONER</option>
+                <option value="">Day cream</option>
+                <option value="">Foot cream</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+                <option value="">Body TONER</option>
+                <option value="">Day cream</option>
+                <option value="">Foot cream</option>
+            </select>
+            <select name="" id="" style="font-size: 15px;">Skin
+                <option value="">BRANDS</option>
+                <option value="">Dark Circles</option>
+                <option value="">Eye counter care</option>
+                <option value="">Eye mask</option>
+                <option value="">Bleach Creams</option>
+                <option value="">All Cream</option>
+                <option value="">Body Moistures</option>
+                <option value="">Body TONER</option>
+                <option value="">Day cream</option>
+                <option value="">Foot cream</option>
+            </select>
+
+
+        </div>
+        <div id="bigface">
+            <img src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_3_.jpg" alt="">
+        </div>
+        <div class="mainbox">
+            <div class="box1">
+                <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/6/3699c478906105612174-2.jpg"
+                    alt="">
+                <h3>lotus herbal white glow on crweame</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Price &#x20b9; 980</p>
+                <button style="background-color: #dd0285;"> Add To Cart </button>
+
+
+
+            </div>
+
+            <div class="box2">
+                <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/8/9/8904304651284_1.jpg"
+                    alt="">
+                <h3>Wow Skin Activated charcoal Face wash</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Price &#x20b9; 500</p>
+                <button style="background-color: #dd0285;"> Add To Cart </button>
+
+            </div>
+            <div>
+                <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/f/l/flowers-of-youth-essence-serum_2_1.jpg"
+                    alt="">
+                <h3>Mamaearth Flowers Of Youth Essence Serum With Hyaluronic Acid & Hibiscus For Youthful Skin</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Price &#x20b9; 490</p>
+                <button style="background-color: #dd0285;"> Add To Cart </button>
+            </div>
+            <div>
+                <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/e/3eb5e308904311902874_1.jpg"
+                    alt="">
+                <h3>WOW Skin Science Raw African Shea Body Butter</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Price &#x20b9; 700</p>
+                <button style="background-color: #dd0285;"> Add To Cart </button>
+
+            </div>
+
+        </div>
+
+        <div class="poster">
+
+            <img src="https://www.beautybebo.com/pub/media/ads/beeone-new-year-banner.gif" alt="">
+
+
+
+
+            <img src="https://www.beautybebo.com/pub/media/ads/lotus-new-year-banner.gif" alt="">
+
+        </div>
+
+        <div class="pinkbar">
+            <img src="https://www.beautybebo.com/pub/media/catalog/category/makeup_1.png" alt="">
+            <img src="https://www.beautybebo.com/pub/media/catalog/category/skin.png" alt="">
+            <img src="https://www.beautybebo.com/pub/media/catalog/category/hair.png" alt="">
+            <img src="https://www.beautybebo.com/pub/media/catalog/category/personal-care.png" alt="">
+            <img src="https://www.beautybebo.com/pub/media/catalog/category/mom-baby-care.png" alt="">
+            <img src="https://www.beautybebo.com/pub/media/catalog/category/eye_1.png" alt="">
+            <img src="https://www.beautybebo.com/pub/media/catalog/category/fragrance_3.png" alt="">
+        </div>
+        <div class="lowerproduct">
+            <div>
+                <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/2/7/277cf77missc00000081_1.jpg"
+                    alt="">
+                <h3>Miss Claire Eyelash Glue - Clear Tone</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Price &#x20b9; 765</p>
+                <button style="background-color: #dd0285;"> Add To Cart </button>
+
+            </div>
+            <div>
+                <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/5/b/5b990e16902395773146_3.jpg"
+                    alt="">
+                <h3>Maybelline New York Fit Me Primer - Dewy+Smooth</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Price &#x20b9; 971</p>
+                <button style="background-color: #dd0285;"> Add To Cart </button>
+
+            </div>
+            <div>
+                <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/6/9/6902395735908_0.jpg"
+                    alt="">
+                <h3>L'Oreal Paris Infallible Full Wear Concealer</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Price &#x20b9; 1000</p>
+                <button style="background-color: #dd0285;"> Add To Cart </button>
+
+            </div>
+            <div>
+                <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/5/1/51c18ra5qzs._sl1500_.jpg"
+                    alt="">
+                <h3>Faces Canada Ultime Pro Matte Play Eyeliner</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Price &#x20b9; 1187</p>
+                <button style="background-color: #dd0285;"> Add To Cart </button>
+            </div>
+        </div>
+        <div id="ladkiface">
+            <img src="https://www.beautybebo.com/pub/media/ads/Forent-New-Year-Banner.gif" alt="">
+        </div>
+        <div>
+            <div>
+                <div class="xyz">
+                    <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/o/ponds_super_light_gel_oil_free_moisturiser_with_hyaluronic_acid_vitamin_e2.jpg"
+                    alt="" width="200px" height="100px">
+                <h3>Faces Canada Ultime Pro Matte Play Eyeliner</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Price &#x20b9; 1187</p>
+                <button style="background-color: #dd0285;"> Add To Cart </button>
+                </div>
+                <div>
+                    <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/o/ponds_super_light_gel_oil_free_moisturiser_with_hyaluronic_acid_vitamin_e2.jpg"
+                    alt="" width="200px" height="100px">
+                <h3>Faces Canada Ultime Pro Matte Play Eyeliner</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Price &#x20b9; 1187</p>
+                <button style="background-color: #dd0285;"> Add To Cart </button>
+                </div>
+                <div>
+                    <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/o/ponds_super_light_gel_oil_free_moisturiser_with_hyaluronic_acid_vitamin_e2.jpg"
+                    alt="" width="200px" height="100px">
+                <h3>Faces Canada Ultime Pro Matte Play Eyeliner</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Price &#x20b9; 1187</p>
+                <button style="background-color: #dd0285;"> Add To Cart </button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_7_.jpg" alt="">
+        </div>
+        div
+
+
+
+
+
+
+        
+
+    
+    <div id="container5">
+        <div id="box1">
+            <h1 class="h1tag">Welcome to Beauty Products Online Shopping India- Beauty Bebo</h1>
+            
+            <hr />
+            <p class="paragraph-990">
+                f you are looking for a flawless radiant face outlook for a special occasion, then we have the perfect
+                tips for you. As you must already know, the conspicuous flawless outlook you want for your wedding, a
+                date, a dinner party or for a modelling competition is only achieved through makeup.
+
+                Don’t get me wrong, you are naturally beautiful, that’s obvious. But everyone else is, so how will you
+                will you ensure that you are different? Read on for hot irresistible tips before you buy beauty products
+                online!
+
+                Clean Your Face First!
+
+                Before embarking on any makeup, always ensure that your face is clean. Need some assistance in absolute
+                cleaning? Visit our range of face wash beauty products online for your best pick. We have made it our
+                duty to carefully select the best products for you, so that you don’t experience breaks and allergies
+                after use. So now you can be confident that your buy cosmetic online shopping will be worth your time
+                and effort.
+
+                Wondering then how you will make a choice among the spectrum available? Most of our products are purely
+                natural in ingredient, so you can as well check for your favorite ingredient combination. If not sure,
+                we are still here for you. We can help narrow down your options, together with you.
+
+                Apply a Moisturizer
+
+                Next, you need a moisturizer in your makeup kit. Moisturizers keep your face glowing regardless of the
+                mood of the day. Most essentially, moisturizers will keep your skin hydrated from the outside, while
+                your constant hydration by taking fluids enhance the efforts.
+
+                Our moisturizers range from matte, ponds, creams and gels, all to ensure that your specific need is met.
+                Just go through the list for a better selection, which will aid you through your cosmetic online
+                shopping. With the best moisturizer, it will also work as a primer. Hence, you don’t have to buy an
+                extra product, which saves you some cost.
+
+                Get Your Makeup Kit
+
+                Your general makeup will consist, of more than the moisturizer. Some o the other major components
+                include the foundation, which you use on your whole face. Then there is the concealer, which you
+                concentrate on areas of the face you want to hide. There is the brightener and highlighter, which you
+                will highlight areas you want conspicuous on your face.
+
+                And don’t forget to look into our range of toners for your best shot at a firmer face and neck.
+
+                We have the most effective beauty products India has dreamt of to replenish your kit, so don’t miss out!
+
+                Enhance the Outlook of the Eyes
+
+                At this point, your eyebrows should be in the shape and size you want them to be. Now you can brush them
+                up to bring out a perfect outlook. Apply eye pencil to cover any gaps within the eyebrows for an ideal
+                outlook.
+
+                If the area surrounding your eyes has a different color shade, probably more tanned or lighter in color
+                in comparison to your general face color, then pay attention to the area.
+
+                Use concealers to bring out the perfect shade you want for a uniform outlook. Alternatively, you can use
+                the highlighter to bring attention to your eyes, which even adds to a seemingly large-eye size.
+
+                If your eyes are starting to show wrinkles, then our under-eye wrinkle creams from our cosmetic online
+                shop should come in handy.
+
+                Want to finish up with a luminating cosmetic product for a conspicuously radiant look? Go ahead and make
+                your makeup experience more appealing.
+
+                Your Lips?
+
+                For a natural beauty look, go for a glossy lip gloss or a light lipstick. Or are you going out with the
+                girls, and thicker lips your way? Our range of matte lipstick collection should work for you.
+
+                Bottom Line
+
+                Want to buy beauty products online to improve your makeup kit? We are always there for you, ready to
+                help.
+
+                All you have to do is take a step, look into our products and try us. Looking forward to seeing you!
+            </p>
+            <br />
+            <br />
+
+           </div>
+</body>
+
+</html>
+
+<script type="module">
+    let div = document.querySelector('.startheader');
+    import navbar from "./components/navbar.js";
+    div.innerHTML = navbar();
+</script>
