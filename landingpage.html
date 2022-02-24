@@ -96,12 +96,27 @@
     .poster>img {
         margin: 50px;
     }
+    .xyz{
+        display: flex;
+        margin: auto;
+    
+    }
+    .xyz>div{
+        margin: auto;
+        text-align: center;
+    }
+    #mycart{
+        background-color: #dd0285;
+        font-size: medium;
+        margin-left: 40px;
+    }
     
 </style>
 
 <body>
     <div>
         <img src="https://www.beautybebo.com/pub/media/ads/ad-desktop.jpg" alt="">
+       
 
 
         <div id="nav1">
@@ -109,7 +124,7 @@
 
             <select name="All Categories" id="sele">
                 <option value="">All Categories</option>
-                <option value="">..Makeup</option>
+                <option value="" >..Makeup</option>
                 <option value="">....Face</option>
                 <option value="">......Foundation</option>
                 <option value="">......Blush</option>
@@ -162,7 +177,7 @@
             <i class='fas fa-user-alt' style='font-size:36px'></i>
             <select name="" id="myaccount">My Account
                 <option value="">My Account</option>
-                <option value="">Login</option>
+                <option value="" id="loginin" onclick="login()">Login</option>
                 <option value="">Register</option>
             </select>
 
@@ -299,6 +314,7 @@
                 <option value="">Day cream</option>
                 <option value="">Foot cream</option>
             </select>
+            <button id="mycart">MY CART</button>
 
 
         </div>
@@ -440,11 +456,11 @@
             <img src="https://www.beautybebo.com/pub/media/ads/Forent-New-Year-Banner.gif" alt="">
         </div>
         <div>
-            <div>
-                <div class="xyz">
+            <div class="xyz">
+                <div>
                     <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/o/ponds_super_light_gel_oil_free_moisturiser_with_hyaluronic_acid_vitamin_e2.jpg"
                     alt="" width="200px" height="100px">
-                <h3>Faces Canada Ultime Pro Matte Play Eyeliner</h3>
+                <h3>Ponds Super Light Gel Oil Free Moisturiser With Hyaluronic Acid + Vitamin E</h3>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -454,9 +470,9 @@
                 <button style="background-color: #dd0285;"> Add To Cart </button>
                 </div>
                 <div>
-                    <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/o/ponds_super_light_gel_oil_free_moisturiser_with_hyaluronic_acid_vitamin_e2.jpg"
+                    <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/c/l/cl-08_strawberry_love-min_2.png"
                     alt="" width="200px" height="100px">
-                <h3>Faces Canada Ultime Pro Matte Play Eyeliner</h3>
+                <h3>Blue Heaven Candy Matte Lip Color</h3>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -466,9 +482,10 @@
                 <button style="background-color: #dd0285;"> Add To Cart </button>
                 </div>
                 <div>
-                    <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/o/ponds_super_light_gel_oil_free_moisturiser_with_hyaluronic_acid_vitamin_e2.jpg"
+                    <img src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/s/dsfsdafsdfsd.jpg"
                     alt="" width="200px" height="100px">
-                <h3>Faces Canada Ultime Pro Matte Play Eyeliner</h3>
+                <h3>Ponds Pimple Clear Face Wash - Pack Of 2
+                    (100 gm Each)</h3>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -574,12 +591,82 @@
             <br />
 
            </div>
+           <div class="footer">
+            <div id="info">
+                <h2>Contact Info</h2>
+                <li><a href="#">.............</a></li>
+                <li><a href="#">support@beautybebo.com</a></li>
+                <li><a href="#">sales@beautybebo.com</a></li>
+                <li><a href="#">Open time: 10:00AM - 7:00PM</a></li>
+            </div>
+        
+            <div>
+                <ul>
+                  <h2>Quick links</h2>
+                  <li><a href="#">............</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Return and Refund Policy</a></li>
+                  <li><a href="#">Shipping Policy</a></li>
+            </div>
+            <div>
+                <ul>
+                  <h2>Customer Info</h2>
+                  <li><a href="#">............</a></li>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Track your Order</a></li>
+                  <li><a href="#">Order Returnss</a></li>
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#">News & Events</a></li>
+                  <li><a href="#">FAQ</a></li>
+            </div>
+            <div>
+                <ul>
+                  <h2>Categories</h2>
+                  <li><a href="#">............</a></li>
+                  <li><a href="#">Makeup</a></li>
+                  <li><a href="#">Skin</a></li>
+                  <li><a href="#">Hair</a></li>
+                  <li><a href="#">Personal Care</a></li>
+                  <li><a href="#">Mom & Baby Care</a></li>
+                  <li><a href="#">Fragrance</a></li>
+                  <li><a href="#">Ayurveda</a></li>
+            </div>
+        </div>
+             <div id="lastline">
+                 <div>
+                    <img
+                    width="30px"
+                    src="https://d3ulwu8fab47va.cloudfront.net/skin/frontend/default/ubuycom-v1/images/new-home/images/footer/payment-links.svg"
+                    alt=""
+                  />
+                  <img
+                          src="https://d2ati23fc66y9j.cloudfront.net/ubuycom/homebanner/payment_methods-158997744021.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://d2ati23fc66y9j.cloudfront.net/ubuycom/homebanner/payment_methods-159064539994.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://d2ati23fc66y9j.cloudfront.net/ubuycom/homebanner/payment_methods-159049393275.png"
+                          alt=""
+                        />
+                        <img
+                        src="https://d2ati23fc66y9j.cloudfront.net/ubuycom/homebanner/payment_methods-159049550294.png"
+                        alt=""
+                      />
+                        
+                 </div>
+                 <div>
+                     <input type="text" style="width: 30%;" placeholder="SIGN UP FOR NEWSLETTER">
+        
+                 </div>
+                <button style="background-color: #dd0285;">SUBSCRIBE HERE</button>
+             </div>
 </body>
 
 </html>
-
-<script type="module">
-    let div = document.querySelector('.startheader');
-    import navbar from "./components/navbar.js";
-    div.innerHTML = navbar();
-</script>
+<script src="landingpage.js"></script>

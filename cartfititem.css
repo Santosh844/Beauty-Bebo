@@ -1,0 +1,307 @@
+* {
+    font-family: "Open Sans", sans-serif;
+  }
+  #nav1 {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 30px;
+
+}
+
+#sele {
+    width: 20%;
+}
+
+#search {
+    width: 40%;
+}
+
+.nav2 {
+    width: 100%;
+    height: 20%;
+    border: 1px salmon;
+    background-color: #dd0285;
+    margin-top: 30px;
+
+
+}
+  .container {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-top: 2%;
+  }
+  
+  #product {
+    width: 70%;
+    height: 600px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+  }
+  #product::-webkit-scrollbar {
+    display: none;
+  }
+  
+  #payment {
+    margin-left: 2%;
+    width: 30%;
+    height: 80%;
+    position: sticky;
+    border: 1px solid blueviolet;
+  }
+  .orderlist {
+    background: #fff;
+    margin-top: 6%;
+  
+    width: 100%;
+    border-bottom: 3px solid #eeeeee;
+  }
+  .orderlist > a::before {
+    content: "< ";
+    font-weight: bolder;
+  }
+  .orderlist > a {
+    color: black;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  .shoppingcart {
+    display: flex;
+    font-size: 25px;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-family: Poppins, sans-serif;
+    position: relative;
+    justify-content: space-between;
+  }
+  .updatelist {
+    margin-top: 4%;
+    font-size: 20px;
+    background-color: gainsboro;
+    border: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* input data from localstorage with date and month */
+  #datemonth {
+    /* display: flex; */
+    margin-top: 4%;
+    font-size: 25px;
+    position: relative;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding-top: 14px;
+    padding-bottom: 20px;
+  }
+  
+  /* data str in the prollist div in 3 division img, main, and (price, count, remove) */
+  #prolist {
+    display: block;
+    margin-top: 2%;
+    width: 98%;
+    /* height: 200px; */
+    border: 1px solid rgb(219, 215, 215);
+    font-size: 26px;
+  }
+  .dateandmonth {
+    border-bottom: 1px solid rgb(219, 215, 215);
+    padding-top: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  .itemlistOndisplay {
+    display: flex;
+  }
+  .img {
+    height: 130px;
+    width: 150px;
+    margin-top: 32px;
+    margin-left: 15px;
+  }
+  .mainbody {
+    width: 70%;
+    margin-left: 2%;
+  }
+  .countofproduct {
+    height: 25px;
+    width: 43%;
+    margin-left: 5%;
+    display: block;
+    margin-top: 2%;
+    border: none;
+    margin-bottom: 2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  .displayprice {
+    margin-top: 50px;
+    font-size: 17px;
+    margin-bottom: 0%;
+  }
+  .displayprice::before {
+    content: "INR ";
+  }
+  .removebtn {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    border: transparent;
+    background-color: transparent;
+    color: gray;
+    cursor: pointer;
+  }
+  .dustpin {
+    margin-left: 0%;
+  }
+  .dustbinimg {
+    width: 9%;
+  }
+  .div3ofproduct {
+    width: 20%;
+    padding: 1%;
+    margin-left: 20px;
+  }
+  
+  .buttonforheart {
+    margin-top: 4%;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+  }
+  .buttonforheart:hover {
+    cursor: pointer;
+  }
+  .heart {
+    color: black;
+    font-size: 20px;
+  }
+ 
+  #finaltable {
+    font-size: 15px;
+    display: flex;
+  }
+  .detail {
+    
+    font-size: 15px;
+  }
+  
+  .orderbox1 {
+    width: 100%;
+    margin-top: 3%;
+    
+  }
+  .orderbox1>div:nth-child(1) {
+    font-size: 18px;
+  }
+  .orderbox1>div {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    justify-content: space-between;
+  }
+  .totalprice-here::before,.totalprice::before {
+    content: "INR ";
+  }
+  .orderbox {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+  }
+  .ordersummary {
+    width: 30%;
+    height: 72%;
+    /* border: 5px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+  }
+  .order {
+    width: 90%;
+    /* height: 70%; */
+    /* border: 1px solid red; */
+    margin-left: 17px;
+  }
+  
+  .discountcodes {
+    height: 7%;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .displayprice::after {
+    content: ".00";
+  }
+  .proceeddiv { 
+    height: 230px;
+    width: 100%;
+    /* border: 1px solid green; */
+  }
+  .proceedbutton {
+    height: 40px;
+    width: 100%;
+    background-color:#dd0285;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .applycoupon {
+    height: 30px;
+    width: 50%;
+    background-color: #dd0285;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .paytag {
+    font-weight: bold;
+  }
+  .proceedbuttondiv {
+    width: 100%;
+    height: 40px;
+    /* border: 2px solid green; */
+  }
+  .inputtext {
+    height: 30px;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+  }
+  .coupondiv {
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid green; */
+  }
+  .inputtext > input {
+    height: 25px;
+    width: 120%;
+  }
+  .footer{
+    margin-top: 50px;
+    display: flex;
+    background-color: #555;
+    
+}
+.footer>div{
+    margin: auto;
+}
+#lastline{
+    display: flex;
+    display: inline;
+}
+#mycart{
+    background-color: #dd0285;
+    font-size: medium;
+    margin-left: 40px;
+}
