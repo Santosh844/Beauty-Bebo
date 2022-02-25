@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/5a5234c63a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="landingpage.css">
+    <link rel="stylesheet" href="index.css">
 
 </head>
 <style>
-    #nav1 {
+    /* #nav1 {
         display: flex;
         margin-top: 30px;
         padding-left: 30px;
@@ -94,7 +94,7 @@
     }
 
     .poster>img {
-        margin: 50px;
+        margin: 20px;
     }
     .xyz{
         display: flex;
@@ -110,6 +110,20 @@
         font-size: medium;
         margin-left: 40px;
     }
+    .footer{
+    margin-top: 50px;
+    display: flex;
+    background-color: #555;
+    
+}
+.footer>div{
+    margin: auto;
+}
+#lastline{
+    display: flex;
+    display: inline;
+} */
+
     
 </style>
 
@@ -175,12 +189,13 @@
             <button id="searchbutton"><i><i class="fas fa-search"></i></i></button>
             <i class="fa fa-heart" style="font-size:40px;"></i>
             <i class='fas fa-user-alt' style='font-size:36px'></i>
-            <select name="" id="myaccount">My Account
+            <button onclick="window.location.href='login.html'">My Account</button>
+            <!-- <select name="" id="myaccount">My Account
                 <option value="">My Account</option>
                 <option value="" id="loginin" onclick="login()">Login</option>
                 <option value="">Register</option>
-            </select>
-
+            </select> -->
+        
         </div>
 
         <div class="nav2">
@@ -317,6 +332,9 @@
             <button id="mycart">MY CART</button>
 
 
+        </div>
+        <div>
+            <button id="ppbt"  onclick="window.location.href = 'productpage.html'" style="margin-top: 50px; background-color: #dd0285;"> Product Page</button>
         </div>
         <div id="bigface">
             <img src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_3_.jpg" alt="">

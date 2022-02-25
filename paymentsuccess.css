@@ -53,3 +53,21 @@
   #h1tag {
     text-align: center;
   }
+  .footer{
+    margin-top: 50px;
+    display: flex;
+    background-color: #555;
+    
+}
+.footer>div{
+    margin: auto;
+}
+#lastline{
+    display: flex;
+    display: inline;
+}
+#mycart{
+    background-color: #dd0285;
+    font-size: medium;
+    margin-left: 40px;
+}

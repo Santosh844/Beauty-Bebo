@@ -1,0 +1,67 @@
+h3{
+    margin-bottom: 50px;
+    font-size: large;
+    text-align: center;
+    
+}
+.email{
+    margin-bottom: 50px;
+    width: 30%;
+}
+#pass{
+    margin-bottom: 50px;
+    width: 30%;
+}
+#user{
+    margin-bottom: 50px;
+    width: 30%;
+}
+#mobile{
+    margin-bottom: 50px;
+    width: 30%;
+}
+form{
+    text-align: center;
+}
+#nav1 {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 30px;
+
+}
+
+#sele {
+    width: 20%;
+}
+
+#search {
+    width: 40%;
+}
+
+.nav2 {
+    width: 100%;
+    height: 20%;
+    border: 1px salmon;
+    background-color: #dd0285;
+    margin-top: 30px;
+
+
+}
+#mycart{
+    background-color: #dd0285;
+    font-size: medium;
+    margin-left: 40px;
+}
+.footer{
+margin-top: 50px;
+display: flex;
+background-color: #555;
+
+}
+.footer>div{
+margin: auto;
+}
+#lastline{
+display: flex;
+display: inline;
+}

@@ -222,12 +222,14 @@
             <div>
                 <h2>REGISTERED CUSTOMERS</h2>
                 <p>If you have an account, sign in with your email address.</p>
+                <form>
                     <input type="text" name="" id="email" placeholder="Enter your email">
                     <br>
-                    <input type="text" name="" id="pass"  placeholder="Enter Password">
+                    <input type="password" name="" id="pass"  placeholder="Enter Password">
                     <br>
-                    <button id="sign" style="background-color: #dd0285;">Sign In</button>
-                    <br>
+                    <button onclick="window.location.href = 'productpage.html'" id="sign" style="background-color: #dd0285;">Sign In</button>
+                    
+                </form>
                     <a href="Forget password">Forget Password</a>
             </div>
             <div>
@@ -235,7 +237,7 @@
                 <p>Creating an account has many benefits: check out faster, keep more than one address, track orders and more.
 
                 </p>
-                <button id="create" style="background-color: #dd0285;">Create Account</button>
+                <button onclick="window.location.href = 'newsignup.html'" id="create" style="background-color: #dd0285;">Create Account</button>
             </div>
         </div>
     </div>
@@ -320,3 +322,4 @@
 </body>
 
 </html>
+<script src="login.js"></script>

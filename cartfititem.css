@@ -305,3 +305,11 @@
     font-size: medium;
     margin-left: 40px;
 }
+.addeditem{
+    display: flex;
+   
+   
+}
+.addeditem>div{
+    margin: auto;
+}

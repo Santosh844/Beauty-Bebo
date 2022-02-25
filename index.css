@@ -1,0 +1,112 @@
+#nav1 {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 30px;
+
+}
+
+#sele {
+    width: 20%;
+}
+
+#search {
+    width: 40%;
+}
+
+.nav2 {
+    width: 100%;
+    height: 20%;
+    border: 1px salmon;
+    background-color: #dd0285;
+    margin-top: 30px;
+
+
+}
+
+#ladkiface {
+    margin: auto;
+    margin-top: 50px;
+}
+
+#bigface {
+    margin: auto;
+    margin-left: 40px;
+    margin-top: 30px;
+
+}
+
+.checked {
+    color: orange;
+
+}
+
+.box1 {
+    text-align: center;
+
+}
+
+.mainbox {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+.poster {
+    display: flex;
+    margin: auto;
+    padding: 40px;
+    margin-top: 50px;
+
+}
+
+.pinkbar {
+    border-radius: 1px solid red;
+    border: 1px;
+    display: flex;
+    background-color: pink;
+    padding: 30px;
+}
+
+.pinkbar>img {
+    margin: auto
+}
+
+.lowerproduct>div {
+    margin: auto;
+}
+
+.lowerproduct {
+    display: flex;
+}
+
+.poster>img {
+    margin: 20px;
+}
+.xyz{
+    display: flex;
+    margin: auto;
+
+}
+.xyz>div{
+    margin: auto;
+    text-align: center;
+}
+#mycart{
+    background-color: #dd0285;
+    font-size: medium;
+    margin-left: 40px;
+}
+.footer{
+margin-top: 50px;
+display: flex;
+background-color: #555;
+
+}
+.footer>div{
+margin: auto;
+}
+#lastline{
+display: flex;
+display: inline;
+}
